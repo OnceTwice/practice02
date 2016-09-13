@@ -11,7 +11,9 @@ public class Prob3 {
 		String s = scanner.nextLine();
 		
 		/*  나머지 코드를 구현합니다. */
-
+		for(int i=0; i<=s.length(); i++) {
+			System.out.println(s.substring(0, i));
+		}
 		
 		scanner.close();
 	}

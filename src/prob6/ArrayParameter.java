@@ -11,8 +11,10 @@ public class ArrayParameter {
 	}
 
 	static void replaceSpace( char a[] ) {
+		
 	}
 
 	static void printCharArray( char a[] ) {
+		System.out.println(a);
 	}
 }
