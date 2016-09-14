@@ -9,10 +9,9 @@ public class Prob3 {
 		System.out.print( "문자열을 입력하세요:" );
 		
 		String s = scanner.nextLine();
-		
 		/*  나머지 코드를 구현합니다. */
-		for(int i=0; i<=s.length(); i++) {
-			System.out.println(s.substring(0, i));
+		for(int i=1; i<=s.length(); i++) {
+			System.out.println(s.toUpperCase().substring(0, i));
 		}
 		
 		scanner.close();
